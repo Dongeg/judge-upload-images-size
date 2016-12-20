@@ -3,7 +3,17 @@
 
 
 链接：https://www.zhihu.com/question/22301793/answer/20970795
-<script>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
 <input type="file" id="files" name="files[]" multiple />
 <output id="list"></output>
 
@@ -23,3 +33,8 @@
 
   document.getElementById('files').addEventListener('change', handleFileSelect, false);
 </script>
+</body>
+
+</html>
+
+```
